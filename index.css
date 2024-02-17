@@ -1,0 +1,202 @@
+/* mobile view */
+body {
+  background-color: white;
+}
+
+nav {
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: none;
+  gap: 70px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav button {
+  display: none;
+}
+
+nav h3 {
+  font-size: 35px;
+  padding:10px;
+}
+
+.logo img {
+  width: 150px;
+  padding: 5px 10px;
+}
+
+.sign-up-bt {
+  border-radius: 25px;
+  background-color: rgb(12, 112, 220);
+  color: white;
+  padding: 15px 30px;
+}
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 40px;
+  line-height: 30px;
+}
+
+.part-1 {
+  width: 800px;
+  padding: 0px 10px;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.part-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-2 img {
+  display: none;
+  width: 30%;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(63, 63, 63);
+}
+
+.account-bt {
+  border-radius: 10px;
+  background-color: rgb(12, 112, 220);
+  color: white;
+  padding: 15px 20px;
+}
+
+.container-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  position: absolute;
+  line-height: 30px;
+}
+
+.part-3 {
+  width: 300px;
+  padding: 0px 10px;
+}
+
+.part-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-4 img {
+  width: 80%;
+}
+
+/* tablets view */
+/* @media only screen and (min-width: 900px) {
+  background-color: black;
+} */
+
+/* laptop view */
+@media only screen and (min-width: 1024px) {
+  nav h3 {
+    display: none;
+  }
+  nav {
+    padding: 16px 100px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav button {
+    display: flex;
+  }
+  .logo img {
+    width: 300px;
+  }
+  .container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 5px;
+    line-height: 40px;
+  }
+
+  .part-1 {
+    width: 800px;
+    padding: 0px 100px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    
+  }
+
+  .part-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .part-2 img {
+    display: flex;
+    width: 80%;
+  }
+
+  p {
+    font-size: 25px;
+    color: rgb(63, 63, 63);
+  }
+
+  .account-bt {
+    border-radius: 15px;
+    background-color: rgb(12, 112, 220);
+    color: white;
+    padding: 15px 30px;
+  }
+
+  .container-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    position: absolute;
+    line-height: 40px;
+  }
+
+  .part-3 {
+    width: 400px;
+    padding: 0px 40px;
+  }
+
+  .part-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .part-4 img {
+    display: flex;
+    width: 80%;
+    padding: 0px 50px;
+  }
+}
